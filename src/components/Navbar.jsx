@@ -28,17 +28,28 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
-          {/* Logo / Brand */}
+          {/* Logo / Brand with UNaM and MADAR Logos */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-science-600 to-science-900 flex items-center justify-center border border-science-500/40 shadow-inner group-hover:border-science-400 transition-colors">
-              <Dna className="w-6 h-6 text-science-300 animate-pulse" />
+            <div className="flex items-center space-x-2">
+              <img 
+                src="/laboratorio_madar/unam-logo.jpg" 
+                alt="Logo UNaM" 
+                className="w-9 h-9 object-contain rounded bg-white p-0.5 border border-science-500/40"
+                onError={(e) => { e.target.src = '/unam-logo.jpg'; }}
+              />
+              <img 
+                src="/laboratorio_madar/madar-logo.jpg" 
+                alt="Logo MADAR" 
+                className="w-9 h-9 object-cover rounded border border-science-500/40"
+                onError={(e) => { e.target.src = '/madar-logo.jpg'; }}
+              />
             </div>
             <div>
-              <span className="text-lg font-bold tracking-wider text-white font-serif group-hover:text-science-300 transition-colors">
+              <span className="text-base sm:text-lg font-bold tracking-wider text-white font-serif group-hover:text-science-300 transition-colors">
                 {labInfo.name}
               </span>
-              <span className="block text-xs text-science-400 tracking-widest uppercase font-mono">
-                {labInfo.acronym} Lab
+              <span className="block text-[11px] text-science-400 tracking-wider font-mono">
+                UNaM • BSL 2+
               </span>
             </div>
           </Link>
