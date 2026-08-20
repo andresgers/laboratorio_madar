@@ -17,7 +17,7 @@ export const History = () => {
             Historia y Evolución del Laboratorio MADAR
           </h1>
           <p className="text-lg text-slate-300 leading-relaxed">
-            La crónica de construcción de una institución científica dedicada a la vanguardia en biología molecular y computación avanzada.
+            La crónica de cómo la científica misionera Karina Salvatierra convirtió un contenedor móvil en el laboratorio de bioseguridad BSL 2+ más avanzado de la región.
           </p>
         </div>
 

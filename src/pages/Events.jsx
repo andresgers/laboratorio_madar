@@ -17,7 +17,7 @@ export const Events = () => {
             Eventos Destacados
           </h1>
           <p className="text-lg text-slate-300 leading-relaxed">
-            Simposios internacionales, workshops metodológicos y seminarios abiertos de divulgación científica.
+            Los hitos más importantes del Laboratorio MADAR: su inauguración con el ministro Daniel Filmus, la recorrida oficial y la puesta en marcha de sus investigaciones.
           </p>
         </div>
 

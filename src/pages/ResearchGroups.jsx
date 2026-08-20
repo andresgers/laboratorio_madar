@@ -17,7 +17,7 @@ export const ResearchGroups = () => {
             Grupos de Investigación
           </h1>
           <p className="text-lg text-slate-300 leading-relaxed">
-            Nuestros equipos especializados abordan los desafíos clave de la biología molecular y la bioinformática contemporánea.
+            El MADAR se organiza en dos laboratorios especializados: biología molecular (amplificación génica y PCR) y cultivo celular (ensayos in vitro con células vivas), dentro del marco de la Red de Laboratorios de la UNaM.
           </p>
         </div>
 
@@ -79,10 +79,10 @@ export const ResearchGroups = () => {
                 </div>
 
                 <div className="pt-4 border-t border-slate-800">
-                  <h4 className="text-xs font-mono uppercase text-science-400 tracking-wider mb-2">Publicaciones Clave:</h4>
+                  <h4 className="text-xs font-mono uppercase text-science-400 tracking-wider mb-2">Logros y Capacidades:</h4>
                   <ul className="space-y-1 text-xs text-slate-400 font-mono">
-                    {group.keyPublications.map((pub, i) => (
-                      <li key={i} className="truncate">• {pub}</li>
+                    {group.achievements.map((ach, i) => (
+                      <li key={i} className="truncate">• {ach}</li>
                     ))}
                   </ul>
                 </div>

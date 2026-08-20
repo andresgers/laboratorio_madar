@@ -19,7 +19,7 @@ export const ServicesEquipment = () => {
             Servicios y Equipamiento
           </h1>
           <p className="text-lg text-slate-300 leading-relaxed">
-            Capacidades tecnológicas de alta gama y servicios especializados abiertos a la comunidad científica y sector industrial.
+            Las capacidades del Laboratorio de Biomedicina BSL 2+ MADAR: investigación de enfermedades virales, cultivo celular, diagnóstico molecular y servicios abiertos a la comunidad científica.
           </p>
         </div>
 

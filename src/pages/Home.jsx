@@ -12,7 +12,7 @@ export const Home = () => {
         {/* Background Image with Dark Scientific Overlay */}
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-25 mix-blend-luminosity filter brightness-75 scale-105 pointer-events-none"
-          style={{ backgroundImage: `url('/new_bg.png')` }}
+          style={{ backgroundImage: `url('/laboratorio_madar/new_bg.png')` }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/60 to-slate-950 pointer-events-none" />
         
@@ -56,20 +56,20 @@ export const Home = () => {
           {/* Stats Bar */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-20 pt-10 border-t border-science-900/50">
             <div className="bg-slate-900/40 p-6 rounded-xl border border-science-900/40 backdrop-blur-sm">
-              <div className="text-3xl font-serif font-bold text-science-300 mb-1">{labInfo.stats.publications}</div>
-              <div className="text-xs text-slate-400 font-mono uppercase tracking-wider">Publicaciones Indexadas</div>
+              <div className="text-3xl font-serif font-bold text-science-300 mb-1">{labInfo.stats.biosafety}</div>
+              <div className="text-xs text-slate-400 font-mono uppercase tracking-wider">Nivel de Bioseguridad</div>
             </div>
             <div className="bg-slate-900/40 p-6 rounded-xl border border-science-900/40 backdrop-blur-sm">
-              <div className="text-3xl font-serif font-bold text-science-300 mb-1">{labInfo.stats.activeProjects}</div>
-              <div className="text-xs text-slate-400 font-mono uppercase tracking-wider">Proyectos Activos</div>
+              <div className="text-3xl font-serif font-bold text-science-300 mb-1">{labInfo.stats.funding}</div>
+              <div className="text-xs text-slate-400 font-mono uppercase tracking-wider">Subsidio Ministerio de Ciencia</div>
             </div>
             <div className="bg-slate-900/40 p-6 rounded-xl border border-science-900/40 backdrop-blur-sm">
-              <div className="text-3xl font-serif font-bold text-science-300 mb-1">{labInfo.stats.researchers}</div>
-              <div className="text-xs text-slate-400 font-mono uppercase tracking-wider">Investigadores y Becarios</div>
+              <div className="text-3xl font-serif font-bold text-science-300 mb-1">{labInfo.stats.teamPerNode}</div>
+              <div className="text-xs text-slate-400 font-mono uppercase tracking-wider">Investigadores por Nodo (2 genetistas + 2 bioquímicos)</div>
             </div>
             <div className="bg-slate-900/40 p-6 rounded-xl border border-science-900/40 backdrop-blur-sm">
-              <div className="text-3xl font-serif font-bold text-science-300 mb-1">{labInfo.stats.collaborations}</div>
-              <div className="text-xs text-slate-400 font-mono uppercase tracking-wider">Redes Internacionales</div>
+              <div className="text-3xl font-serif font-bold text-science-300 mb-1">{labInfo.stats.conicet}</div>
+              <div className="text-xs text-slate-400 font-mono uppercase tracking-wider">Investigadores y Becarios CONICET en Misiones</div>
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ export const Home = () => {
                 <span>Origen y Evolución Institucional</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white tracking-tight">
-                Una trayectoria construida en la intersección de la biología y la computación
+                De un contenedor móvil a un centro de investigación inédito en la región
               </h2>
               <p className="text-slate-300 leading-relaxed">
                 {historyData.origins}
@@ -113,22 +113,22 @@ export const Home = () => {
                 <li className="flex items-start space-x-3">
                   <div className="w-6 h-6 rounded-full bg-science-900/80 text-science-400 flex items-center justify-center shrink-0 mt-0.5 text-xs font-mono font-bold border border-science-700/40">01</div>
                   <div>
-                    <strong className="text-white block mb-1">Simulación y Modelado Atómico</strong>
-                    <span>Entendimiento termodinámico y conformacional de macromoléculas mediante computación de alto rendimiento.</span>
+                    <strong className="text-white block mb-1">Bioseguridad BSL 2+</strong>
+                    <span>Único laboratorio de su categoría en Misiones: nivel 2 plus, apenas un escalón antes del nivel 3, que permite trabajar con patógenos aéreos y agentes virales.</span>
                   </div>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-6 h-6 rounded-full bg-science-900/80 text-science-400 flex items-center justify-center shrink-0 mt-0.5 text-xs font-mono font-bold border border-science-700/40">02</div>
                   <div>
-                    <strong className="text-white block mb-1">Genómica de Célula Única</strong>
-                    <span>Desarrollo de pipelines algorítmicos para descifrar la heterogeneidad transcripcional y epigenética.</span>
+                    <strong className="text-white block mb-1">Cultivo Celular y Ensayos In Vitro</strong>
+                    <span>Tecnología que hasta el momento no había en la provincia: células vivas (líneas VERO) para aislar virus, ensayar antivirales y producir proteínas.</span>
                   </div>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-6 h-6 rounded-full bg-science-900/80 text-science-400 flex items-center justify-center shrink-0 mt-0.5 text-xs font-mono font-bold border border-science-700/40">03</div>
                   <div>
-                    <strong className="text-white block mb-1">Biofísica de Membranas y Superresolución</strong>
-                    <span>Caracterización óptica y nanométrica de la arquitectura celular viva.</span>
+                    <strong className="text-white block mb-1">Vigilancia Genómica y Diagnóstico Molecular</strong>
+                    <span>PCR, amplificación génica y secuenciación de genomas para detectar variantes del SARS-CoV-2 y estudiar dengue, zika, chikungunya, HPV y leucemia.</span>
                   </div>
                 </li>
               </ul>

@@ -25,7 +25,7 @@ export const Members = () => {
             Miembros del Laboratorio
           </h1>
           <p className="text-lg text-slate-300 leading-relaxed">
-            Un equipo multidisciplinario de investigadores, becarios y profesionales unidos por la excelencia científica.
+            El equipo del Laboratorio MADAR, integrado por la científica misionera Karina Salvatierra, investigadores de doble dependencia UNaM-CONICET y las instituciones que acompañan la investigación en Misiones.
           </p>
         </div>
 
